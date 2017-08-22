@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Hello, we are the UCU machine learning team
 
 You can use the [editor on GitHub](https://github.com/juanpale/machineLearning/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
