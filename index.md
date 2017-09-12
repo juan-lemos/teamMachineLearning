@@ -1,37 +1,73 @@
-## Hello, we are the UCU machine learning team
+# Machine Learning Team
 
-You can use the [editor on GitHub](https://github.com/juanpale/machineLearning/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Caso 1 
 
-### Markdown
+En este caso trataremos el problema de detectar que pacientes son suceptibles de tener ataques cardíacos. Para ello utilizaremos la herramienta RapidMiner, editor de texto y Excel, además de los data set de [UCI sobre ataques cardíacos](http://archive.ics.uci.edu/ml/datasets/heart+Disease).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Paso 1
+Descargar los dataset.
 
-```markdown
-Syntax highlighted code block
+[hungarian.data](http://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/hungarian.data)
 
-# Header 1
-## Header 2
-### Header 3
+[long-beach-va.data](http://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/long-beach-va.data)
 
-- Bulleted
-- List
+[cleveland.data](http://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/cleveland.data)
 
-1. Numbered
-2. List
+[switzerland.data](http://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/switzerland.data)
 
-**Bold** and _Italic_ and `Code` text
+### Paso 2
+Transformar los datos a csv. Para ello se realizó el siguiente programa en Java.
 
-[Link](url) and ![Image](src)
+```java
+ public static void main(String[] args) throws IOException {
+        formatFile("cleveland.data.txt");
+        formatFile("hungarian.data.txt");
+        formatFile("long-beach-va.data.txt");
+        formatFile("switzerland.data.txt");
+
+    }
+
+    static void formatFile(String fileName) throws FileNotFoundException, IOException {
+        try (BufferedReader br = new BufferedReader(new FileReader(fileName))) {
+            FileOutputStream outputStream
+                    = new FileOutputStream("formated_" + fileName);
+            String line = "";
+            while ((line = br.readLine()) != null) {
+                line = line.trim();
+                line = line.replace(" ", ",");
+                if (!line.isEmpty()) {
+                    if (line.contains("name")) {
+                        outputStream.write((line+"\n").getBytes());
+                    } else {
+                        outputStream.write((line+",").getBytes());
+                    }
+                }
+                System.out.println(line);
+            }
+            br.close();
+            outputStream.close();
+        }
+    }
+
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Paso 3
+Limpiar filas sucias en el data set de cleveland.data.csv.
 
-### Jekyll Themes
+### Paso 4
+Agregar nombre a columnas en los csv, de acuerdo a la información que se puede apreciar en [heart-disease.names](http://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/heart-disease.names).
+Esto se realiza con Excel.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/juanpale/machineLearning/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Paso 5
+Cambiar los valores que dicen -9 los cuales representan a valores que no están presente por vacio. Para ello se utilizó el reemplazar de Excel.
 
-### Support or Contact
+### Paso 6
+Estudiar cada tipo de datos como se puede apreciar en el documento.
+# Poner SUBIR y LINK   <<<<<============
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Paso 7
+Realizar un modelo en Rapid Miner como el que se aprecia en la imagen de abajo. [Archivo_Rapid_Miner]()
+# Poner Subir foto y archivo de rapidminer Y Link <<<<<============
+
+![Rapid_miner_process](http://ucu.edu.uy/sites/all/themes/univer/logo.png)
