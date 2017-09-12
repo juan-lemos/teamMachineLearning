@@ -1,3 +1,3 @@
 # teamMachineLearning
 
-## we are BEST
+# [Web and works](https://juanpale.github.io/teamMachineLearning/)
