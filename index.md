@@ -60,14 +60,10 @@ Agregar nombre a columnas en los csv, de acuerdo a la información que se puede 
 Esto se realiza con Excel.
 
 ### Paso 5
-Cambiar los valores que dicen -9 los cuales representan a valores que no están presente por vacio. Para ello se utilizó el reemplazar de Excel.
+Estudiar cada tipo de datos como se puede apreciar en el [documento](https://github.com/juanpale/teamMachineLearning/blob/master/Ana%CC%81lisis%20Previo%20de%20datos.pdf). 
 
 ### Paso 6
-Estudiar cada tipo de datos como se puede apreciar en el documento.
-# Poner SUBIR y LINK   <<<<<============
+Realizar un modelo en Rapid Miner como el que se aprecia en la imagen de abajo. [Archivo_Rapid_Miner](https://github.com/juanpale/teamMachineLearning/blob/master/portfolio1.rmp).
 
-### Paso 7
-Realizar un modelo en Rapid Miner como el que se aprecia en la imagen de abajo. [Archivo_Rapid_Miner]()
-# Poner Subir foto y archivo de rapidminer Y Link <<<<<============
 
-![Rapid_miner_process](http://ucu.edu.uy/sites/all/themes/univer/logo.png)
+![Rapid_miner_process](https://raw.githubusercontent.com/juanpale/teamMachineLearning/master/Caso1.png)
