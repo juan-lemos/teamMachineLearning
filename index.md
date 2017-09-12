@@ -63,7 +63,9 @@ Esto se realiza con Excel.
 Estudiar cada tipo de datos como se puede apreciar en el [documento](https://github.com/juanpale/teamMachineLearning/blob/master/Ana%CC%81lisis%20Previo%20de%20datos.pdf). 
 
 ### Paso 6
-Realizar un modelo en Rapid Miner como el que se aprecia en la imagen de abajo. [Archivo_Rapid_Miner](https://github.com/juanpale/teamMachineLearning/blob/master/portfolio1.rmp).
+Realizar un modelo en Rapid Miner como el que se aprecia en la imagen de abajo.
+[Archivo_Rapid_Miner](https://github.com/juanpale/teamMachineLearning/blob/master/portfolio1.rmp).
+[Represetancion en Rapid Miner](https://github.com/juanpale/teamMachineLearning/blob/master/Portfolio1Final.zip)
 
 
 ![Rapid_miner_process](https://raw.githubusercontent.com/juanpale/teamMachineLearning/master/Caso1.png)
