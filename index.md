@@ -64,7 +64,9 @@ Estudiar cada tipo de datos como se puede apreciar en el [documento](https://git
 
 ### Paso 6
 Realizar un modelo en Rapid Miner como el que se aprecia en la imagen de abajo.
+
 [Archivo_Rapid_Miner](https://github.com/juanpale/teamMachineLearning/blob/master/portfolio1.rmp).
+
 [Represetancion en Rapid Miner](https://github.com/juanpale/teamMachineLearning/blob/master/Portfolio1Final.zip)
 
 
