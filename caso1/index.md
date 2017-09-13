@@ -61,14 +61,14 @@ Agregar nombre a columnas en los csv, de acuerdo a la información que se puede 
 Esto se realiza con Excel.
 
 ### Paso 5
-Estudiar cada tipo de datos como se puede apreciar en el [documento](https://github.com/juanpale/teamMachineLearning/blob/master/Ana%CC%81lisis%20Previo%20de%20datos.pdf). 
+Estudiar cada tipo de datos como se puede apreciar en el [documento](./Analisis_Previo_de_datos.pdf). 
 
 ### Paso 6
 Realizar un modelo en Rapid Miner como el que se aprecia en la imagen de abajo.
 
-[Archivo_Rapid_Miner](https://github.com/juanpale/teamMachineLearning/blob/master/portfolio1.rmp).
+[Archivo_Rapid_Miner](./portfolio1.rmp)
 
-[Represetancion en Rapid Miner](https://github.com/juanpale/teamMachineLearning/blob/master/Portfolio1Final.zip)
+[Represetancion en Rapid Miner](./Portfolio1Final.zip)
 
 
-![Rapid_miner_process](https://raw.githubusercontent.com/juanpale/teamMachineLearning/master/Caso1.png)
+![Rapid_miner_process](./Caso1.png)
