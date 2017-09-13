@@ -1,8 +1,5 @@
-# Machine Learning Team
-
-[Volver](../index.md)
-
 ## Caso 1
+[Volver](../index.md)
 
 En este caso trataremos el problema de detectar que pacientes son suceptibles de tener ataques cardíacos. Para ello utilizaremos la herramienta RapidMiner, editor de texto y Excel, además de los data set de [UCI sobre ataques cardíacos](http://archive.ics.uci.edu/ml/datasets/heart+Disease).
 
@@ -72,3 +69,6 @@ Realizar un modelo en Rapid Miner como el que se aprecia en la imagen de abajo.
 
 
 ![Rapid_miner_process](./Caso1.png)
+
+
+[Volver](../index.md)
