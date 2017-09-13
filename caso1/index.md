@@ -1,6 +1,6 @@
 # Machine Learning Team
 
-[Volver](../index.ml)
+[Volver](../index.md)
 
 ## Caso 1
 
