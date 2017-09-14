@@ -41,7 +41,7 @@ En cuanto al tratamiento previo:
   - oldpeak  : ST depression induced by exercise relative to rest 
   - num      : diagnosis of heart disease (angiographic disease status) 
   
-### [Solución implementada](./caso1/index.md)   
+### [Solución implementada]
 
 Para resolver el problema planteado se utilizó un modelo de regresión logística, cuya principal característica consiste en predecir el resultado de un variable categórica. En este caso dicha variable estará representada con dos posibles resultados (riesgo positivo o negativo de sufrir un ataque cardíaco).
 
