@@ -45,4 +45,4 @@ En cuanto al tratamiento previo:
 
 Para resolver el problema planteado se utilizó un modelo de regresión logística, cuya principal característica consiste en predecir el resultado de un variable categórica. En este caso dicha variable estará representada con dos posibles resultados (riesgo positivo o negativo de sufrir un ataque cardíaco).
 
-Para poder ejecutar el proceso implementado en la herramienta RapidMiner acceda al siguiente [enlace](./caso1/index.md) y siga los pasos allí indicados.
+Para poder ejecutar el proceso implementado en la herramienta RapidMiner acceda al siguiente [enlace](./First case of study - Heart diseases/index.md) y siga los pasos allí indicados.
