@@ -1,7 +1,7 @@
-## Caso 1
+## Solución implementada para el primer caso de estudio
 [Volver](../index.md)
 
-En este caso trataremos el problema de detectar que pacientes son suceptibles de tener ataques cardíacos. Para ello utilizaremos la herramienta RapidMiner, editor de texto y Excel, además de los data set de [UCI sobre ataques cardíacos](http://archive.ics.uci.edu/ml/datasets/heart+Disease).
+En este caso trataremos el problema de detectar que pacientes son suceptibles de tener ataques cardíacos. Para ello utilizaremos la herramienta RapidMiner, un editor de texto y Excel, además de los data set de [UCI sobre ataques cardíacos](http://archive.ics.uci.edu/ml/datasets/heart+Disease).
 
 ### Paso 1
 Descargar los dataset.
@@ -63,12 +63,10 @@ Estudiar cada tipo de datos como se puede apreciar en el [documento](./Analisis_
 ### Paso 6
 Realizar un modelo en Rapid Miner como el que se aprecia en la imagen de abajo.
 
-[Archivo_Rapid_Miner](./portfolio1.rmp)
+[Archivo_Rapid_Miner](./heart_diseases_study.rmp)
 
-[Represetancion en Rapid Miner](./Portfolio1Final.zip)
+[Represetanción en Rapid Miner](./Portfolio1Final.zip)
 
-
-![Rapid_miner_process](./Caso1.png)
-
+![Rapid_miner_process](./Rapidminer process screenshot.png)
 
 [Volver](../index.md)

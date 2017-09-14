@@ -1,16 +1,16 @@
 # Machine Learning Team
 
-## [Caso 1](./caso1/index.md)
-El objetivo de este trabajo es investigar cuáles son los factores más importantes a la hora de predecir si una persona tiene una enfermedad cardìaca. La varaible dependiente es justamente el diágnostico de que si un paciente tiene o no una enfermedad cardíaca. Para esto se usaron los cuatro datasets de [UCI sobre ataques cardíacos](http://archive.ics.uci.edu/ml/datasets/heart+Disease). Para la preparación de los datos se utilizo Excel y para la construcción del modelo RapidMiner.
+## [Primer caso de estudio - Enfermedades cardíacas]
+El objetivo de este trabajo es investigar cuáles son los factores más importantes a la hora de predecir si una persona puede llegar a tener una enfermedad cardíaca. La varaible dependiente es justamente el diágnostico de que si un paciente tiene riesgo o no de sufrir una enfermedad cardíaca. Para esto se usaron los cuatro datasets de [UCI sobre ataques cardíacos](http://archive.ics.uci.edu/ml/datasets/heart+Disease). Para la preparación de los datos se utilizo Excel y para la construcción del modelo RapidMiner.
 
-## [Habilidades demostradas](./caso1/index.md)
+### [Habilidades demostradas]
 Preparación de datos, esto implica tanto el tratamiento previo como el conocimiento del dominio del problema. 
 En cuanto al tratamiento previo:
     - Detección de Outliers
     - Tratamiento de Missing Values
     - Evaluación estadísticas de los datos en los diferentes datasets
 
-## [Atributos usados](./caso1/index.md)    
+### [Atributos usados]   
   - age : age in years
   - sex : (1 = male; 0 = female) 
   - painloc : (1 = substernal; 0 = otherwise) 
@@ -41,5 +41,8 @@ En cuanto al tratamiento previo:
   - oldpeak  : ST depression induced by exercise relative to rest 
   - num      : diagnosis of heart disease (angiographic disease status) 
   
-   
+### [Solución implementada](./caso1/index.md)   
 
+Para resolver el problema planteado se utilizó un modelo de regresión logística, cuya principal característica consiste en predecir el resultado de un variable categórica. En este caso dicha variable estará representada con dos posibles resultados (riesgo positivo o negativo de sufrir un ataque cardíaco).
+
+Para poder ejecutar el proceso implementado en la herramienta RapidMiner acceda al siguiente [enlace](./caso1/index.md) y siga los pasos allí indicados.
