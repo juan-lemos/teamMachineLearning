@@ -58,7 +58,7 @@ Agregar nombre a columnas en los csv, de acuerdo a la información que se puede 
 Esto se realiza con Excel.
 
 ### Paso 5
-Estudiar cada tipo de datos como se puede apreciar en el [documento](./Analisis_Previo_de_datos.pdf). 
+Estudiar cada tipo de datos como se puede apreciar en el [documento](./Data%20analysis.pdf). 
 
 ### Paso 6
 Realizar un modelo en Rapid Miner como el que se aprecia en la imagen de abajo.
