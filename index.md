@@ -1,7 +1,7 @@
-# Machine Learning Team
+# Machine Learning Team Portfolio
 
-## [Primer caso de estudio - Enfermedades cardíacas]
-El objetivo de este trabajo es investigar cuáles son los factores más importantes a la hora de predecir si una persona puede llegar a tener una enfermedad cardíaca. La varaible dependiente es justamente el diágnostico de que si un paciente tiene riesgo o no de sufrir una enfermedad cardíaca. Para esto se usaron los cuatro datasets de [UCI sobre ataques cardíacos](http://archive.ics.uci.edu/ml/datasets/heart+Disease). Para la preparación de los datos se utilizo Excel y para la construcción del modelo RapidMiner.
+## [Caso de estudio - Enfermedades cardíacas]
+El objetivo de este trabajo es investigar cuáles son los factores más importantes a la hora de predecir si una persona puede llegar a tener una enfermedad cardíaca. La variable dependiente es justamente el diágnostico de que si un paciente tiene riesgo o no de sufrir una enfermedad cardíaca. Para esto se usaron los cuatro datasets de [UCI sobre ataques cardíacos](http://archive.ics.uci.edu/ml/datasets/heart+Disease). Para la preparación de los datos se utilizo Excel y para la construcción del modelo RapidMiner.
 
 ### [Habilidades demostradas]
 Preparación de datos, esto implica tanto el tratamiento previo como el conocimiento del dominio del problema. 
@@ -46,3 +46,24 @@ En cuanto al tratamiento previo:
 Para resolver el problema planteado se utilizó un modelo de regresión logística, cuya principal característica consiste en predecir el resultado de un variable categórica. En este caso dicha variable estará representada con dos posibles resultados (riesgo positivo o negativo de sufrir un ataque cardíaco).
 
 Para poder ejecutar el proceso implementado en la herramienta RapidMiner acceda al siguiente [enlace](./First case of study - Heart diseases/index.md) y siga los pasos allí indicados.
+
+## [Caso de estudio - House price predicting]
+En este caso buscaremos predecir el precio de una casa en base a 79 diferentes variables asociadas a la misma. Para ello utilizaremos la herramienta RapidMiner, un editor de texto y Excel, además de los data set de [House Prices: Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data).
+
+El objetivo de este trabajo es investigar y predecir precios de inmuebles en el mercado de Ames, Iowa (USA), analizando cuáles son los factores más importantes a la hora de realizar dicha predección. La variable dependiente es justamente el precio del inmueble, en dólares  americanos. Para esto se utilizó un dataset obtenido de kaggle [House Prices: Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data). Para la preparación de los datos y construcción del modelo se utilizío la herramiento RapidMiner.
+
+### [Habilidades demostradas]
+Preparación de datos, esto implica tanto el tratamiento previo como el conocimiento del dominio del problema. 
+En cuanto al tratamiento previo:
+    - Detección de Outliers
+    - Tratamiento de Missing Values
+    - Evaluación estadísticas de los datos en el dataset
+
+### [Atributos usados]
+
+  
+### [Solución implementada]
+
+Para resolver el problema planteado se utilizó un modelo de regresión lineal, cuya principal característica consiste en predecir el resultado de un variable numérica. El motivo de utilizar este modelo surgue a causa de la fuerte linealidad detectada a la hora de analizar la variable dependiente del problema (precio del inmueble)
+
+Para poder ejecutar el proceso implementado en la herramienta RapidMiner acceda al siguiente [enlace](./House prices project/index.md) y siga los pasos allí indicados.
