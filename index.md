@@ -60,7 +60,7 @@ En cuanto al tratamiento previo:
 - Estudiar la variable a predecir (variable dependiente).
 - Estudiar relación entre las diversas variables dependientes y la variable a predecir.
 - Tratamiento de la data, pasos necesarios antes de aplicar el modelo de aprendizaje automático elegido.
-- Elección de un modelo que mejor aplique al modelo planteado.
+- Elección de un modelo que mejor aplique al problema planteado.
 
 
 ### [Atributos usados]
