@@ -48,22 +48,37 @@ Para resolver el problema planteado se utilizó un modelo de regresión logísti
 Para poder ejecutar el proceso implementado en la herramienta RapidMiner acceda al siguiente [enlace](./First case of study - Heart diseases/index.md) y siga los pasos allí indicados.
 
 ## [Caso de estudio - House price predicting]
-En este caso buscaremos predecir el precio de una casa en base a 79 diferentes variables asociadas a la misma. Para ello utilizaremos la herramienta RapidMiner, un editor de texto y Excel, además de los data set de [House Prices: Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data).
+En este caso buscaremos predecir el precio de una casa en base a 79 diferentes variables asociadas a la misma. Para ello utilizaremos la herramienta RapidMiner, un editor de texto y Excel, además del data set [House Prices: Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data).
 
 El objetivo de este trabajo es investigar y predecir precios de inmuebles en el mercado de Ames, Iowa (USA), analizando cuáles son los factores más importantes a la hora de realizar dicha predección. La variable dependiente es justamente el precio del inmueble, en dólares  americanos. Para esto se utilizó un dataset obtenido de kaggle [House Prices: Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data). Para la preparación de los datos y construcción del modelo se utilizío la herramiento RapidMiner.
 
 ### [Habilidades demostradas]
 Preparación de datos, esto implica tanto el tratamiento previo como el conocimiento del dominio del problema. 
 En cuanto al tratamiento previo:
-    - Detección de Outliers
-    - Tratamiento de Missing Values
-    - Evaluación estadísticas de los datos en el dataset
+    - Comprender el problema analizando cada una de las variables, determinando su significado y su importancia dentro del problema.
+	- Estudiar la variable a predecir (variable dependiente).
+	- Estudiar relación entre las diversas variables dependientes y la variable a predecir.
+	- Tratamiento de la data, pasos necesarios antes de aplicar el modelo de aprendizaje automático elegido.
+
 
 ### [Atributos usados]
+Atributos elegidos luego de realizado el analálisis de datos correspondiente:
 
+- SalePrice: Precio de la propiedad, en dólares. Numérico. Variable a predecir.
+
+- OverallQual: Calidad del material utilizado en general y en el acabado de la propiedad. Numérico.
+- GrLivArea: Área sobre el nivel del suelo, en pies cuadrados. Numérico.
+- FullBath: Cantidad de baños completos sobre el nivel de suelo. Numérico.
+- 1stFlrSF:  Área del primer piso (pies cuadrados). Numérico.
+- GarageCars: Tamaño del garaje en la capacidad del automóviles. Numérico.
+- GarageArea: Tamaño del garaje en pies cuadrados. Numérico.
+- TotRmsAbvGrd: Cantidad de habitaciones sobre el nivel del suelo. Numérico.
+- TotalBsmtSF: Área (pies cuadrados) del sótano. Numérico.
+- YearBuilt: Año de construcción. Numérico.
+- YearRemodAdd: Año de remodelación (misma que de construcción si no ha tenido remodelaciones). Numérico.
   
 ### [Solución implementada]
 
-Para resolver el problema planteado se utilizó un modelo de regresión lineal, cuya principal característica consiste en predecir el resultado de un variable numérica. El motivo de utilizar este modelo surgue a causa de la fuerte linealidad detectada a la hora de analizar la variable dependiente del problema (precio del inmueble)
+Para resolver el problema se planteó un algoritmo de VOTE, diseñados para mejorar la performance de los modelos tradicionales al combinar varios de ellos obteniendo varios puntos de vista del mismo problema. Dentro de los modelos utilizados en el VOTE se analizaron modelos del tipo lineal, a causa de la fuerte linealidad detectada a la hora de analizar la variable dependiente del problema (precio del inmueble), y de árboles (Gradient Boosted Trees y W-M5P, ambos caracterizados por mejorar la precisión de los resultados obtenidos).
 
-Para poder ejecutar el proceso implementado en la herramienta RapidMiner acceda al siguiente [enlace](./House prices project/index.md) y siga los pasos allí indicados.
+Para poder visualizar y ejecutar el proceso implementado en la herramienta RapidMiner acceda al siguiente [enlace](./House prices project/index.md) y siga los pasos allí indicados.
