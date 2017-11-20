@@ -55,10 +55,12 @@ El objetivo de este trabajo es investigar y predecir precios de inmuebles en el 
 ### [Habilidades demostradas]
 Preparación de datos, esto implica tanto el tratamiento previo como el conocimiento del dominio del problema. 
 En cuanto al tratamiento previo:
-    - Comprender el problema analizando cada una de las variables, determinando su significado y su importancia dentro del problema.
-	- Estudiar la variable a predecir (variable dependiente).
-	- Estudiar relación entre las diversas variables dependientes y la variable a predecir.
-	- Tratamiento de la data, pasos necesarios antes de aplicar el modelo de aprendizaje automático elegido.
+
+- Comprender el problema analizando cada una de las variables, determinando su significado y su importancia dentro del problema.
+- Estudiar la variable a predecir (variable dependiente).
+- Estudiar relación entre las diversas variables dependientes y la variable a predecir.
+- Tratamiento de la data, pasos necesarios antes de aplicar el modelo de aprendizaje automático elegido.
+- Elección de un modelo que mejor aplique al modelo planteado.
 
 
 ### [Atributos usados]
