@@ -26,57 +26,32 @@ Testeando algoritmos con todas las columnas disponibles del dataset (con su corr
 
 | Algoritmo  | Parámetros |  Performance (squared correlation) |
 | ---------- | ------------- | ------------- |
-| Content Ce | Content Cell  | Content Cell  |
-| Content Cel| Content Cell  | Content Cell  |
+| Gradient Boosted Trees | number of trees: 30, maximal depth: 5  | 0.880  |
+| Linear regression| feature selection: M5 prime, with bias and no colinear features (tolerance 0.05)  | 0.874  |
+| W-M5P | por defecto  | 0.736  |
 
-Algoritmo
-Parámetros
-Performance (squared correlation)
-Gradient Boosted Trees
-number of trees: 30, maximal depth: 5
-0.880
-Linear regression
-feature selection: M5 prime, with bias and no colinear features (tolerance 0.05)
-0.874
-W-M5P
-por defecto
-0.736
 
 En base a estudio realizado de las columnas y las diversas correlaciones.
 
 Tabla de resultados con las 10 variables más correlacionados:
 
-Algoritmo
-Parámetros
-Performance (squared correlation)
-Gradient Boosted Trees
-number of trees: 30, maximal depth: 5
-0.848
-Linear regression
-feature selection: M5 prime, with bias and no colinear features (tolerance 0.05)
-0.827
-W-M5P
-por defecto
-0.827
+| Algoritmo  | Parámetros |  Performance (squared correlation) |
+| ---------- | ------------- | ------------- |
+| Gradient Boosted Trees | number of trees: 30, maximal depth: 5  | 0.848  |
+| Linear regression| feature selection: M5 prime, with bias and no colinear features (tolerance 0.05)  | 0.827  |
+| W-M5P | por defecto  | 0.827  |
 
-Utilizando parámetro VOTE de RapidMiner:
+Utilizando bloque VOTE de RapidMiner:
 
 Performance (squared correlation): 0.844
 
 Tabla de resultados con los 6 variables que se mantienen:
 
-Algoritmo
-Parámetros
-Performance (squared correlation)
-Gradient Boosted Trees
-number of trees: 30, maximal depth: 5
-0.836
-Linear regression
-feature selection: M5 prime, with bias and no colinear features (tolerance 0.05)
-0.821
-W-M5P
-por defecto
-0.823
+| Algoritmo  | Parámetros |  Performance (squared correlation) |
+| ---------- | ------------- | ------------- |
+| Gradient Boosted Trees | number of trees: 30, maximal depth: 5  | 0.836  |
+| Linear regression| feature selection: M5 prime, with bias and no colinear features (tolerance 0.05)  | 0.821  |
+| W-M5P | por defecto  | 0.823  |
 
 Utilizando parámetro VOTE de RapidMiner:
 
@@ -88,44 +63,32 @@ En orden de poder comprobar que se obtienen mejores resultados una vez filtrados
 
 Tabla de resultados con las 10 variables más correlacionados (sin outliers):
 
-Algoritmo
-Parámetros
-Performance (squared correlation)
-Gradient Boosted Trees
-number of trees: 30, maximal depth: 5
-0.846
-Linear regression
-feature selection: M5 prime, with bias and no colinear features (tolerance 0.05)
-0.842
-W-M5P
-por defecto
-0.848
+| Algoritmo  | Parámetros |  Performance (squared correlation) |
+| ---------- | ------------- | ------------- |
+| Gradient Boosted Trees | number of trees: 30, maximal depth: 5  | 0.846  |
+| Linear regression| feature selection: M5 prime, with bias and no colinear features (tolerance 0.05)  | 0.842  |
+| W-M5P | por defecto  | 0.848  |
 
 Utilizando parámetro VOTE de RapidMiner:
 
-Performance (squared correlation): 0.855
+Performance (squared correlation): **0.855**
 
 Tabla de resultados con los 6 variables que se mantienen (sin outliers):
 
-Algoritmo
-Parámetros
-Performance (squared correlation)
-Gradient Boosted Trees
-number of trees: 30, maximal depth: 5
-0.836
-Linear regression
-feature selection: M5 prime, with bias and no colinear features (tolerance 0.05)
-0.831
-W-M5P
-por defecto
-0.837
+| Algoritmo  | Parámetros |  Performance (squared correlation) |
+| ---------- | ------------- | ------------- |
+| Gradient Boosted Trees | number of trees: 30, maximal depth: 5  | 0.836  |
+| Linear regression| feature selection: M5 prime, with bias and no colinear features (tolerance 0.05)  | 0.831  |
+| W-M5P | por defecto  | 0.837 |
+
 
 Utilizando parámetro VOTE de RapidMiner:
 
 Performance (squared correlation): 0.844 
 
-Utilizando baggins para los casos de linear regression y W-M5P no obtuvimos mejores resultados.
+Los parámetros utilizados en los diversos modelos fueron los que obtuvieron una mejor performance para el problema planteado.
 
+Es importante recalcar que utilizando baggins para los casos de linear regression y W-M5P no obtuvimos mejores resultados.
 
 
 [Volver](../index.md)
