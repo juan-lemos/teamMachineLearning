@@ -71,7 +71,7 @@ Tabla de resultados con las 10 variables más correlacionados (sin outliers):
 
 Utilizando parámetro VOTE de RapidMiner:
 
-Performance (squared correlation): **0.855**
+ ** Performance (squared correlation): 0.855 **
 
 Tabla de resultados con los 6 variables que se mantienen (sin outliers):
 
@@ -88,7 +88,7 @@ Performance (squared correlation): 0.844
 
 Los parámetros utilizados en los diversos modelos fueron los que obtuvieron una mejor performance para el problema planteado.
 
-Es importante recalcar que utilizando baggins para los casos de linear regression y W-M5P no obtuvimos mejores resultados.
+Es importante recalcar que utilizando baggins para los casos de linear regression y W-M5P no se obtuvieron mejores resultados.
 
 
 [Volver](../index.md)
