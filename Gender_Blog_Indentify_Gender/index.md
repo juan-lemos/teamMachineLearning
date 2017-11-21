@@ -38,6 +38,7 @@ Distribución por peso de los atributos por SVM
 
 
 [Represetanción en Rapid Miner](./Process.zip)
-
+![alt text](./ProcesoPhoto.png "Process")
+![alt text](./TokenizePhoto.png "Tokenize")
 
 [Volver](../index.md)
