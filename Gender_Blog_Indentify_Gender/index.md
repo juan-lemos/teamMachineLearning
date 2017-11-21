@@ -27,16 +27,17 @@ Este operador se configurá con un vector de  TF-IDF, es decir que tendrá en cu
 - Por último se generan nuevos tokens, con **Generate n-grams**, estos nuevos tokens son para tener en cuenta el contexto de la palabra en este caso se eligio que se tenga en cuenta a hasta 2 palabras consecutivas.
 
 
-### Paso 5
-Estudiar cada tipo de datos como se puede apreciar en el [documento](./Data%20analysis.pdf). 
-
 ### Paso 6
-Realizar un modelo en Rapid Miner como el que se aprecia en la imagen de abajo.
+Se paso a realizar un multiply para generar 3 modelos, entrenados con el algoritmo de SVM y validados con cross validation.
+Uno de los modelos se ingresan todos los atributos y es el que menor precisión tuvo con  67.35% +/- 2.38% 
+El otro se tiene en cuenta los pesos de los atributos por ganancia de información y se tomaron aproximadamente un 1/3 de los atributos con mejor peso, obteniendo una precisión de de 73.36% +/- 2.67% .
+El útlimo modelo se tiene el cuenta el peso de cada atributo por SVM, y este caso se obtuvo la mejor precisión 84.59% +/- 2.44%.
 
-[Archivo_Rapid_Miner](./heart_diseases_study.rmp)
+Distribución por peso de los atributos por SVM
+![alt text](./DistribuciónAtributosSVM.png "Logo Title Text 1")
 
-[Represetanción en Rapid Miner](./Portfolio1Final.zip)
 
-![Rapid_miner_process](./Rapidminer process screenshot.png)
+[Represetanción en Rapid Miner](./Process.zip)
+
 
 [Volver](../index.md)
