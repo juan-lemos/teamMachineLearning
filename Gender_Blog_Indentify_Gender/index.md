@@ -38,6 +38,9 @@ Distribución por peso de los atributos por SVM
 
 
 [Represetanción en Rapid Miner](./Process.zip)
+
+[Excel estudio de atributos por ganacia atributos en SVM](./AttributesWeights.xlsx)
+
 ![alt text](./ProcesoPhoto.png "Process")
 ![alt text](./TokenizePhoto.png "Tokenize")
 
