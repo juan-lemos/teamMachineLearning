@@ -47,7 +47,13 @@ Para resolver el problema planteado se utilizó un modelo de regresión logísti
 
 Para poder ejecutar el proceso implementado en la herramienta RapidMiner acceda al siguiente [enlace](./First case of study - Heart diseases/index.md) y siga los pasos allí indicados.
 
-## [Caso de estudio - House price predicting]
+
+
+
+
+
+
+## [Caso de estudio  - House price predicting]
 En este caso buscaremos predecir el precio de una casa en base a 79 diferentes variables asociadas a la misma. Para ello utilizaremos la herramienta RapidMiner, un editor de texto y Excel, además del data set [House Prices: Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data).
 
 El objetivo de este trabajo es investigar y predecir precios de inmuebles en el mercado de Ames, Iowa (USA), analizando cuáles son los factores más importantes a la hora de realizar dicha predección. La variable dependiente es justamente el precio del inmueble, en dólares  americanos. Para esto se utilizó un dataset obtenido de kaggle [House Prices: Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data). Para la preparación de los datos y construcción del modelo se utilizío la herramiento RapidMiner.
@@ -84,3 +90,38 @@ Atributos elegidos luego de realizado el analálisis de datos correspondiente:
 Para resolver el problema se planteó un algoritmo de VOTE, diseñados para mejorar la performance de los modelos tradicionales al combinar varios de ellos obteniendo varios puntos de vista del mismo problema. Dentro de los modelos utilizados en el VOTE se analizaron modelos del tipo lineal, a causa de la fuerte linealidad detectada a la hora de analizar la variable dependiente del problema (precio del inmueble), y de árboles (Gradient Boosted Trees y W-M5P, ambos caracterizados por mejorar la precisión de los resultados obtenidos).
 
 Para poder visualizar y ejecutar el proceso implementado en la herramienta RapidMiner acceda al siguiente [enlace](./House prices project/index.md) y siga los pasos allí indicados.
+
+
+
+
+
+
+
+
+## [Caso de estudio - Identificación de sexo por lo que se escribe en artículos]
+El objetivo de este trabajo es investigar como realizar operaciones de text mining. Particularmente nos centraremos en un ejemplo supervisado, en el que dado una entrada de blog tenemos el sexo de la persona que escribió el texto.
+Para ello se utilizó el [dataset](http://www.cs.uic.edu/~liub/FBS/blog-gender-dataset.rar) provisto por la siguiente página https://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html#datasets.
+Para la preparación de los datos se utilizo Excel y para la construcción del modelo RapidMiner.
+
+### [Habilidades demostradas]
+Tratamiento de entradas de texto, donde lo que entra como atributo es un texto.
+Se verá como:
+ - separar el texto en palabras
+ - sobrepasar las variaciones que posee una misma palabra dado sus conjugaciónes
+ - cómo tener en cuenta el contexto de la palabra
+ las cuales poseen variantes, dado sus conjugaciones y palabras antecesoras y
+ - cómo aplicar técnicas conocidas de clasificación
+
+### [Atributos usados]
+Atributos elegidos luego de realizado el analálisis de datos correspondiente:
+
+- Blog: entrada de texto en inglés.
+- Sexo: másculino o femenino.
+
+### [Solución implementada]
+
+Para resolver el problema se utilizaron herramientas para tokeneinizar las entradas de texto, es decir separar el texto en palabras. Luego se realizó una limpieza de la aquellas palabras o caracteres que no aportaban al problema por ejemplo salto de línea, espacios, entre otros que además son propios del idioma inglés. Seguido se utilizó stem Porter, con el objetivo de poder acortar las palabras y obtener de estas su raíz, la utilidad de esto es sobre pasar las diferentes conjugaciones que una misma palabra puede tener. Por último se generaron n gramas para tener en cuenta el contexto de la palabra.
+
+A partir de los nuevos atributos generados (palabras), se aplicó SVM, previamente estudiando la relevacia de cada palabra para el problema de clasficación.
+
+Para poder visualizar y ejecutar el proceso implementado en la herramienta RapidMiner acceda al siguiente [enlace](./Gender_Blog_Indentify/index.md) y siga los pasos allí indicados.
