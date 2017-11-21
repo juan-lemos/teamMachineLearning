@@ -124,4 +124,4 @@ Para resolver el problema se utilizaron herramientas para tokeneinizar las entra
 
 A partir de los nuevos atributos generados (palabras), se aplicó SVM, previamente estudiando la relevacia de cada palabra para el problema de clasficación.
 
-Para poder visualizar y ejecutar el proceso implementado en la herramienta RapidMiner acceda al siguiente [enlace](./Gender_Blog_Indentify/index.md) y siga los pasos allí indicados.
+Para poder visualizar y ejecutar el proceso implementado en la herramienta RapidMiner acceda al siguiente [enlace](./Gender_Blog_Indentify_Gender/index.md) y siga los pasos allí indicados.
