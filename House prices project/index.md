@@ -14,9 +14,9 @@ Analizar datos del data set descargado. La documentación de dicho estudio se pu
 ### Paso 3 - Implementación
 Implementar modelo en RapidMiner Studio como el que se aprecia en la imagen de abajo.
 
-[Archivo_Rapid_Miner](./HousePricing.rmp)
+[Proceso de RapidMiner completo (.rmp)](./HousePricing.rmp)
 
-[Represetanción en RapidMiner](./HousePricingProject.zip)
+[Zip con proceso y captura del mismo](./HousePricingProject.zip)
 
 ![Rapid_miner_process](./rapidminerprocess.png)
 
