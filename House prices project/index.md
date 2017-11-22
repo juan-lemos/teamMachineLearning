@@ -14,11 +14,11 @@ Analizar datos del data set descargado. La documentación de dicho estudio se pu
 ### Paso 3 - Implementación
 Implementar modelo en RapidMiner Studio como el que se aprecia en la imagen de abajo.
 
-[Archivo_Rapid_Miner](./heart_diseases_study.rmp)
+[Archivo_Rapid_Miner](./HousePricing.rmp)
 
-[Represetanción en RapidMiner](./Portfolio1Final.zip)
+[Represetanción en RapidMiner](./HousePricingProject.zip)
 
-![Rapid_miner_process](./Rapidminer process screenshot.png)
+![Rapid_miner_process](./rapidminerprocess.png)
 
 ### Paso 4 - Resultados obtenidos
 
@@ -99,10 +99,10 @@ Los parámetros probados en el operador Detect Outlier Distance son los siguient
 | 10 | 1  | Distancia euclidiana  | Distancia euclidiana | 0.855 |
 
 
-**Recapitulando el mejor resultado obtenido se obtuvo utilizando las 10 variables más correlacionadas y la combinación de VOTE ya mencionada con detección de outliers (10 número de vecinos, 10 número de outliers y tipo de medición distancia euclidiana).**
+**Recapitulando el mejor resultado obtenido se obtuvo utilizando las 10 variables más correlacionadas y la combinación de VOTE ya mencionada con detección de outliers (10 número de vecinos, 3 número de outliers y tipo de medición distancia euclidiana).**
 
+*Es importante recalcar que utilizando baggins para los casos de linear regression y W-M5P no se obtuvieron mejores resultados.*
 
-Es importante recalcar que utilizando baggins para los casos de linear regression y W-M5P no se obtuvieron mejores resultados.
-
+**Performance final: 0.863**
 
 [Volver](../index.md)
