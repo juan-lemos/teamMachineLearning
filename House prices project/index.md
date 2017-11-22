@@ -88,6 +88,20 @@ Performance (squared correlation): 0.844
 
 Los parámetros utilizados en los diversos modelos fueron los que obtuvieron una mejor performance para el problema planteado.
 
+Los parámetros probados en el operador Detect Outlier Distance son los siguientes:
+
+| Número de vecinos  | Número de outliers |  Tipo de medida |  Performance VOTE (original 0.855) |
+| ---------- | ------------- | ------------- |
+| 5 | 5  | Distancia euclidiana  | Distancia euclidiana | 0.853 |
+| 10 | 10  | Distancia euclidiana  | Distancia euclidiana | 0.855 |
+| 10 | 5  | Distancia euclidiana  | Distancia euclidiana | 0.861 |
+| 10 | 3  | Distancia euclidiana  | Distancia euclidiana | 0.863 |
+| 10 | 1  | Distancia euclidiana  | Distancia euclidiana | 0.855 |
+
+
+** Recapitulando el mejor resultado obtenido se obtuvo utilizando las 10 variables más correlacionadas y la combinación de VOTE ya mencionada con detección de outliers (10 número de vecinos, 10 número de outliers y tipo de medición distancia euclidiana). **
+
+
 Es importante recalcar que utilizando baggins para los casos de linear regression y W-M5P no se obtuvieron mejores resultados.
 
 
