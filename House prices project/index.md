@@ -71,7 +71,7 @@ Tabla de resultados con las 10 variables más correlacionados (sin outliers):
 
 Utilizando parámetro VOTE de RapidMiner:
 
- ** Performance (squared correlation): 0.855 **
+ **Performance (squared correlation): 0.855**
 
 Tabla de resultados con los 6 variables que se mantienen (sin outliers):
 
@@ -99,7 +99,7 @@ Los parámetros probados en el operador Detect Outlier Distance son los siguient
 | 10 | 1  | Distancia euclidiana  | Distancia euclidiana | 0.855 |
 
 
-** Recapitulando el mejor resultado obtenido se obtuvo utilizando las 10 variables más correlacionadas y la combinación de VOTE ya mencionada con detección de outliers (10 número de vecinos, 10 número de outliers y tipo de medición distancia euclidiana). **
+**Recapitulando el mejor resultado obtenido se obtuvo utilizando las 10 variables más correlacionadas y la combinación de VOTE ya mencionada con detección de outliers (10 número de vecinos, 10 número de outliers y tipo de medición distancia euclidiana).**
 
 
 Es importante recalcar que utilizando baggins para los casos de linear regression y W-M5P no se obtuvieron mejores resultados.
