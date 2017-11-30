@@ -125,3 +125,39 @@ Para resolver el problema se utilizaron herramientas para tokeneinizar las entra
 A partir de los nuevos atributos generados (palabras), se aplicó SVM, previamente estudiando la relevacia de cada palabra para el problema de clasficación.
 
 Para poder visualizar y ejecutar el proceso implementado en la herramienta RapidMiner acceda al siguiente [enlace](./Gender_Blog_Indentify_Gender/index.md) y siga los pasos allí indicados.
+
+
+
+
+
+
+
+
+## [Caso de estudio - Aprendizaje no supervisado]
+El objetivo de este trabajo es mostrar la utilización de un algoritmo no supervisado particularmente k-means. En este ejemplo analizaremos el caso de pacientes con riesgo de poseer enfermedad coronaria.
+
+Con el objetivo de hacer un llamado de atención aquellos individuos con más riesgo. 
+
+Para ello se utilizó el [dataset](./kMeans/k-means-cardio.csv). El cúal contiene 547 pacientes.
+
+### [Habilidades demostradas]
+Se verá como:
+ - Analizar posibles outliers.
+ - Utilizar el operador de RapidMiner para realizar clusterización.
+ - Analizar sus posibles 
+ 
+### [Atributos usados]
+Atributos elegidos luego de realizado el analálisis de datos correspondiente:
+
+- Peso: numérico
+- Colesterol: numérico
+- Sexo: binomial, masculino (representado con 1) o femenino 0
+
+### [Solución implementada]
+
+Para resolver el problema lo primero que se realizó fue ver si cada uno de los 3 atributos contenía outliers. Por lo que se analizo como lás gráficas de cada atributo para detectar posibles outliers.
+Cómo no se detectaron outliers se paso a utilizar el operador de RapidMiner K-Means.
+Se comenzó a probar diferentes k para ver cómo se formaban los cluster y que tan separados estaba uno del otro. Éste análisis se hace viendo las gráficas scatter de cada atributo con respecto al cluster que se clasifica.
+
+
+Para poder visualizar y ejecutar el proceso implementado en la herramienta RapidMiner acceda al siguiente [enlace](./kMeans/index.md) y siga los pasos allí indicados.
