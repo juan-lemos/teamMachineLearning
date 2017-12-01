@@ -161,3 +161,56 @@ Se comenzó a probar diferentes k para ver cómo se formaban los cluster y que t
 
 
 Para poder visualizar y ejecutar el proceso implementado en la herramienta RapidMiner acceda al siguiente [enlace](./kMeans/index.md) y siga los pasos allí indicados.
+
+
+
+
+
+
+## [Caso de estudio - Predicción de costo de automóviles usados]
+El objetivo de este trabajo es predecir el costo de automóviles usados dado el siguiente dataset de autos usados publicados en ebay Alemania.
+
+Para ello se utilizó el [dataset](./UsedCars/autos_Ebay.csv).
+
+
+
+### [Habilidades demostradas]
+Se verá como:
+ - Análisis de la data y preparación de la data
+ - Analizar posibles enfoques de ML para resolver el problema.
+ - Utilizar de operadores de predición para una variable lineal
+ - Analizar sus posibles 
+
+ 
+### [Atributos usados]
+Atributos elegidos luego de realizado el analálisis de datos correspondiente:
+
+price: Precio anunciado (variable de salida)
+dateCrawled: fecha en que los datos del aviso de ese auto fueron “crawleados” por primera vez en el sitio
+name: título que el anunciante le dió a su aviso
+seller: nombre de usuario del vendedor
+Tipo de vendedor: 'privat' vendedor particular / 'gewerblich' vendedor comercial (concesionario)
+OfferType:'Angebot' Vendedor / 'Gesuch’ Comprador
+vehicleType (Tipo de vehículo): Coupe, SUV, Limousine, Bus, Kleinwagen (auto compacto), Kombi (Auto Camioneta, tipo Taxi Aeropuerto Carrasco), Andere (otros)
+monthOfRegistration (mes en que el auto fue patentado)
+yearOfRegistration (Año en que el auto fue patentado)
+gearbox (cambios): 'manuell'' manual o 'automatik' automático
+powerPS (Caballos de potencia del auto en PS)
+model (Modelo de auto)
+brand (Marca del auto)
+kilometer (Kilómetros recorridos)
+fuelType (Tipo de combustible): Benzin (Nafta), Diesel, LPG (gas licuado), Hybrid, Elektro (Eléctrico), CNG (Gas comprimido), Andere (otros)
+notRepairedDamage (Si el auto tiene un desperfecto que aún no fue reparado): Ja (SI), Nein (NO)
+dateCreated (Fecha en que fue creado el anuncio en Ebay)
+nrOfPictures (Número de imágenes que tiene la publicación)
+postalCode (Código postal de Alemania donde el auto se encuentra)
+
+
+### [Solución implementada]
+
+Para resolver este problema lo primero que se realizó fue ver cuales atributos eran relevantes y cuales no tenían sentido considerarlos por su significado. 
+Luego se analizó como tratar los missing values de los atributos que quedaban, se completaron dado tal situación o se terminaron quitando.
+Una vez que se limpio el dataset, se utilizó el algoritmo k-nn, con Rapid Miner
+Probando diferentes valores para k (vecinos) llegamos a obtener mejores resultados utilizando un k = 5 con la opción de weight vote activada.
+
+Para poder visualizar y ejecutar el proceso implementado en la herramienta RapidMiner acceda al siguiente [enlace](./UsedCars/index.md) y siga los pasos allí indicados.
